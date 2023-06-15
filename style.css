@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: red;
+  height: 80px;
+  color: white;
+}
+header nav {
+  display: flex;
+}
+nav ul {
+  text-decoration: none;
+}
+nav ul li {
+  align-items: center;
+  display: inline-block;
+}
