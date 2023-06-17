@@ -13,6 +13,9 @@ nav {
   justify-content: space-between;
   background: #1876f2;
   padding: 5px 5%;
+  position: sticky;
+  top: 0;
+  z-index: 900;
 }
 .logo {
   width: 160px;
@@ -56,4 +59,42 @@ nav {
 }
 .nav__user-icon {
   margin-left: 30px;
+}
+.online {
+  position: relative;
+}
+.online::after {
+  content: "";
+  width: 7px;
+  height: 7px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  background: #41db51;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 5%;
+}
+.left__sidebar {
+  background: #cbdffa;
+  flex-basis: 25%;
+  position: sticky;
+  top: 70px;
+  align-self: flex-start;
+  height: 100vh;
+}
+.right__sidebar {
+  background: #cbdffa;
+  flex-basis: 25%;
+  position: sticky;
+  top: 70px;
+  align-self: flex-start;
+  height: 100vh;
+}
+.main__content {
+  width: 47%;
 }
