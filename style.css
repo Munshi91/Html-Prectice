@@ -80,13 +80,11 @@ nav {
   padding: 13px 5%;
 }
 .left__sidebar {
-  /* background: #cbdffa; */
   flex-basis: 25%;
   position: sticky;
   top: 70px;
   align-self: flex-start;
-  /* height: 100vh; */
-
+  height: 100vh;
 }
 .right__sidebar {
   background: #fff;
@@ -94,7 +92,6 @@ nav {
   position: sticky;
   top: 70px;
   align-self: flex-start;
-  /* height: 100vh; */
   padding: 20px;
   border-radius: 4px;
   color: #626262;
