@@ -317,3 +317,50 @@ nav {
   color: #626262;
   margin: 20px 0;
 }
+.user__profile span {
+  font-size: 13px;
+  color: #9a9a9a;
+}
+.post__text {
+  color: #9a9a9a;
+  margin: 15px 0;
+  font-size: 15px;
+}
+.post__text span {
+  color: #626262;
+  font-weight: 500;
+}
+.post__text a {
+  text-decoration: none;
+}
+.post-img {
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
+.post__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.activity__icons div img {
+  width: 18px;
+  margin-right: 10px;
+}
+.activity__icons div {
+  display: inline;
+  align-items: center;
+  margin-right: 30px;
+}
+.post__profile-icons {
+  display: flex;
+  align-items: center;
+}
+.post__profile-icons img {
+  width: 20px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.post__row a {
+  color: #9a9a9a;
+}
