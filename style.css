@@ -7,6 +7,10 @@
 body {
   background: #efefef;
 }
+/* header nav {
+  display: flex;
+  position: sticky;
+} */
 nav {
   display: flex;
   align-items: center;
@@ -15,7 +19,7 @@ nav {
   padding: 5px 5%;
   position: sticky;
   top: 0;
-  z-index: 900;
+  z-index: 999;
 }
 .logo {
   width: 160px;
@@ -84,7 +88,6 @@ nav {
   position: sticky;
   top: 70px;
   align-self: flex-start;
-  /* height: 100vh; */
 }
 .right__sidebar {
   background: #fff;
