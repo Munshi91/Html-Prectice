@@ -84,7 +84,7 @@ nav {
   position: sticky;
   top: 70px;
   align-self: flex-start;
-  height: 100vh;
+  /* height: 100vh; */
 }
 .right__sidebar {
   background: #fff;
@@ -134,7 +134,7 @@ nav {
   justify-content: space-between;
   margin-bottom: 18px;
 }
-.sidbar__title h4 {
+.right__sidebar h4 {
   font-weight: 600;
   font-size: 16px;
 }
@@ -160,10 +160,10 @@ nav {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .event p {
-  font-size: 14px;
+  font-size: 12px;
 }
 .event a {
-  font-size: 14px;
+  font-size: 12px;
   text-decoration: none;
   color: #1876f2;
 }
@@ -179,6 +179,141 @@ nav {
 }
 .sidbar__ads {
   width: 100%;
-  margin: 20px;
+  margin-bottom: 20px;
   border-radius: 4px;
+}
+.online__list {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.online__list .online img {
+  width: 40px;
+  border-radius: 50%;
+}
+.online__list .online {
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.online__list .online::after {
+  top: unset;
+  bottom: 5px;
+}
+.story__gallery {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.story {
+  flex-basis: 18%;
+  padding-top: 32%;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+}
+.story img {
+  position: absolute;
+  width: 45px;
+  border-radius: 50%;
+  top: 10px;
+  left: 10px;
+  border: 5px solid #1876f2;
+}
+.story p {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+}
+.story-1 {
+  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)),
+    url(images/status-1.png);
+}
+.story-2 {
+  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)),
+    url(images/status-2.png);
+}
+.story-3 {
+  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)),
+    url(images/status-3.png);
+}
+.story-4 {
+  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)),
+    url(images/status-4.png);
+}
+.story-5 {
+  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)),
+    url(images/status-5.png);
+}
+.story.story-1 img {
+  top: unset;
+  left: 50%;
+  bottom: 40px;
+  transform: translate(-50%);
+  border: 0;
+  width: 35px;
+}
+.write__post-container {
+  width: 100%;
+  background: #fff;
+  border-radius: 6px;
+  padding: 20px;
+  color: #626262;
+}
+.user__profile {
+  display: flex;
+  align-items: center;
+}
+.user__profile img {
+  width: 45px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.user__profile p {
+  margin-bottom: -5px;
+  font-weight: 500;
+  color: #626262;
+}
+.user__profile small {
+  font-size: 12px;
+}
+.post__input-container {
+  padding-left: 55px;
+  padding-top: 20px;
+}
+.post__input-container textarea {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  border-bottom: 1px solid #ccc;
+  background: transparent;
+  resize: none;
+}
+.add__post-link {
+  display: flex;
+  margin-top: 10px;
+}
+.add__post-link a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: #626262;
+  margin-right: 30px;
+  font-size: 13px;
+}
+.add__post-link img {
+  width: 20px;
+  margin-right: 10px;
+}
+.post__container {
+  width: 100%;
+  background: #fff;
+  border-radius: 6px;
+  padding: 20px;
+  color: #626262;
+  margin: 20px 0;
 }
