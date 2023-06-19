@@ -7,10 +7,6 @@
 body {
   background: #efefef;
 }
-/* header nav {
-  display: flex;
-  position: sticky;
-} */
 nav {
   display: flex;
   align-items: center;
