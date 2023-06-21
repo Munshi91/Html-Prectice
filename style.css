@@ -390,6 +390,11 @@ nav {
   overflow: hidden;
   top: 108%;
   right: 5%;
+  max-height: 0;
+  transition: max-height 0.3s;
+}
+.settings__menu-height {
+  max-height: 450px;
 }
 .settings__menu hr {
   border: 0;
