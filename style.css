@@ -383,7 +383,7 @@ nav {
   position: absolute;
   width: 90%;
   max-width: 350px;
-  height: 500px;
+  /* height: 500px; */
   background: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
   border-radius: 4px;
@@ -404,4 +404,22 @@ nav {
 }
 .setting__menu-inner {
   padding: 20px;
+}
+.settings__links {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+}
+.settings__links .settings__icon {
+  width: 38px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+.settings__links a {
+  text-decoration: none;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+  color: #626262;
 }
