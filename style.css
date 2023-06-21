@@ -379,3 +379,15 @@ nav {
   padding: 10px 20px;
   font-size: 13px;
 }
+.settings__menu {
+  position: absolute;
+  width: 90%;
+  max-width: 350px;
+  height: 500px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  border-radius: 4px;
+  overflow: hidden;
+  top: 100px;
+  right: 5%;
+}
