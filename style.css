@@ -388,6 +388,20 @@ nav {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
   border-radius: 4px;
   overflow: hidden;
-  top: 100px;
+  top: 108%;
   right: 5%;
+}
+.settings__menu hr {
+  border: 0;
+  height: 1px;
+  background: #9a9a9a;
+  margin: 15px 0;
+}
+.user__profile a {
+  font-size: 12px;
+  color: #1876f2;
+  text-decoration: none;
+}
+.setting__menu-inner {
+  padding: 20px;
 }
