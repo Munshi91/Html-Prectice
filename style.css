@@ -465,3 +465,17 @@ nav {
   padding-left: 23px;
   background: #0f0f0f;
 }
+
+/* Profile Page CSS Heere */
+.profile__container {
+  padding: 20px 15%;
+  color: var(--gray-color);
+}
+.cover_img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 14px;
+}
+.profile_details{
+  
+}
