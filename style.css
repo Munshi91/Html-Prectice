@@ -10,6 +10,12 @@
   --bg-color: #fff;
   --gray-color: #626262;
 }
+.dark__theme {
+  --body-color: #0a0a0a;
+  --nav-color: #000;
+  --bg-color: #000;
+  --gray-color: #efefef;
+}
 
 body {
   background: var(--body-color);
@@ -147,7 +153,7 @@ nav {
 }
 .sidbar__title a {
   text-decoration: none;
-  color: var(--nav-color);
+  color: #1876f2;
   font-size: 12px;
 }
 .event {
@@ -172,14 +178,14 @@ nav {
 .event a {
   font-size: 12px;
   text-decoration: none;
-  color: var(--nav-color);
+  color: #1876f2;
 }
 .left__event span {
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
-  background: var(--nav-color);
+  background: #1876f2;
   color: var(--bg-color);
   font-size: 10px;
   padding: 4px 0;
@@ -451,11 +457,11 @@ nav {
 #dark__btn span {
   width: 18px;
   height: 18px;
-  background: var(--bg-color);
+  background: #fff;
   border-radius: 50%;
   display: inline-block;
 }
 #dark__btn.dark__btn-on {
   padding-left: 23px;
-  background: #000;
+  background: #0f0f0f;
 }
