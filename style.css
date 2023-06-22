@@ -601,9 +601,21 @@ nav {
   grid-template-columns: repeat(3, auto);
   grid-gap: 8px;
   margin-top: 15px;
-  text-align: center;
 }
 .photo-box div img {
-  width: 32%;
+  width: 100%;
+  cursor: pointer;
+}
+.profile_intro p {
+  font-size: 14px;
+}
+.friend-box {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 10px;
+  margin-top: 15px;
+}
+.friend-box div img {
+  width: 100%;
   cursor: pointer;
 }
