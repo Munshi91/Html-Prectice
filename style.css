@@ -628,3 +628,32 @@ nav {
   bottom: 0;
   left: 0;
 }
+/* ...................media query for home page ..............*/
+@media (max-width: 900px) {
+  .right__sidebar {
+    display: none;
+  }
+  .left__sidebar {
+    display: none;
+  }
+  nav {
+    flex-wrap: wrap;
+  }
+  .search__box {
+    display: none;
+  }
+  .logo {
+    width: 110px;
+    margin-right: 20px;
+  }
+  .nav__left ul li img {
+    width: 20px;
+    margin: 0 8px;
+  }
+  .nav__user-icon img {
+    width: 30px;
+  }
+  .nav__user-icon {
+    margin-left: 0;
+  }
+}
