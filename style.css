@@ -685,3 +685,32 @@ nav {
     padding-left: 0;
   }
 }
+/*.......... Profile Page css Add Heere ..............*/
+@media (max-width: 900px) {
+  .profile__container {
+    padding: 20px 5%;
+  }
+  .profile_details {
+    flex-wrap: wrap;
+  }
+  .pd_right {
+    text-align-last: left;
+    margin-top: 15px;
+  }
+  .pd_right button {
+    margin-left: 0;
+    margin-right: 10px;
+  }
+  .pd-row div h3 {
+    font-size: 16px;
+  }
+  .profile__info {
+    flex-wrap: wrap;
+  }
+  .info__col {
+    flex-basis: 100%;
+  }
+  .post__col {
+    flex-basis: 100%;
+  }
+}
