@@ -656,4 +656,32 @@ nav {
   .nav__user-icon {
     margin-left: 0;
   }
+  .add__post-link {
+    flex-wrap: wrap;
+  }
+  .main__content {
+    flex-basis: 100%;
+  }
+  .story img {
+    width: 30px;
+    border-width: 3px;
+  }
+  .story p {
+    font-size: 10px;
+  }
+  .story.story-1 img {
+    width: 25px;
+    bottom: 30px;
+  }
+  .add__post-link a {
+    margin-right: 12px;
+    font-size: 9px;
+  }
+  .add__post-link a img {
+    width: 16px;
+    margin-right: 5px;
+  }
+  .post__input-container {
+    padding-left: 0;
+  }
 }
