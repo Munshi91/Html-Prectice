@@ -618,11 +618,12 @@ nav {
 .friend-box div img {
   width: 100%;
   cursor: pointer;
+  padding-bottom: 20px;
 }
-.friend-box div{
+.friend-box div {
   position: relative;
 }
-.friend-box p{
+.friend-box p {
   position: absolute;
   bottom: 0;
   left: 0;
